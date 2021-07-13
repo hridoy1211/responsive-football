@@ -1,10 +1,9 @@
-/* Google fonts Poppins 700 weight */
+/*  Google fonts Poppins  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-/* Google fonts Poppins 700 weight */
 
-/* Google fonts Poppins 400 weight */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-/* Google fonts Poppins 400 weight */
+/*  Google fonts Poppins  */
+
 
 /* Common Styles */
 body{
@@ -23,8 +22,27 @@ main{
 
 
 /*-----------------
-        header 
- ------------------*/
+    header start
+-------------------*/
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.link,.login,a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.login .login-btn{
+    padding: 7px 25px;
+    background-color: #E02C6D;
+}
+
+
 header{
     background-color:#2D25A0;
     margin-bottom: 70px;
@@ -81,7 +99,7 @@ header{
 /* transform & transition */
 
 /*-----------------
-        header 
+    header end
  ------------------*/
 
 
