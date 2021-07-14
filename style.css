@@ -17,7 +17,6 @@ main{
 }
 .container{
     width: 1050px;
-    /* height: 474px; */
 }
 /* Common Styles */
 
@@ -70,7 +69,6 @@ header{
 }
 
 .half-width img{
-    /* width: 80%; */
     width: 556.01px;
     height: 438px;
 }
@@ -144,11 +142,9 @@ Players-Section start
 /* transform & transition */
 
 .player-detail{
-    /* width:300px;
-    height:154px;
-    width: 100%; */
     font-size: 16px;
 }
+
 .photo-title{
     font-size: 28px;
 }
@@ -173,7 +169,7 @@ Players-Section End
      padding: 10px 20px;
      background-color: #E02C6D;
      color:white;
-     border-radius: 10px;
+     border-radius: 20px;
      font-weight: 700;
  }
  .watch-button:hover{
