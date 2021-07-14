@@ -14,9 +14,11 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 .container{
     width: 1050px;
+    
 }
 /* Common Styles */
 
@@ -38,6 +40,7 @@ main{
     text-decoration: none;
     margin-top: 30px;
     margin-right: 20px;
+
 }
 
 .login .login-btn{
@@ -52,7 +55,8 @@ header{
 }
 
 .flexible{
-    display: flex;  
+    display: flex;
+      
 }
 
 .half-width{
@@ -177,14 +181,14 @@ Players-Section End
 }
 /*--------------------
  Extra Section 1 end
- --------------------*/
+---------------------*/
 
 
 
 
-/*--------------------
+/*---------------------
   Extra Section 2 start
- --------------------*/
+----------------------*/
 .login-form{
     margin-top: 100px;
     display: flex;
@@ -215,15 +219,15 @@ Players-Section End
     background-color: brown;
     transform: scale(0.95);
 }
-/*--------------------
+/*---------------------
   Extra Section 2 end
- --------------------*/
+----------------------*/
 
 
 
- /* ----------------
+/*-----------------
     footer start
------------------- */
+------------------- */
 footer{
     display: flex;
     flex-direction: column;
@@ -252,6 +256,52 @@ footer{
     font-weight: 400;
     font-size: 18px;
 }
- /* ----------------
+/* ----------------
     footer end 
 ------------------ */
+
+@media only screen and (max-width:688px){
+
+    .container{
+        width: 100%;
+        
+    }
+    .players{
+        /* background-color: orange; */
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 24px;
+        width: 95%;
+    }
+
+    .flexible{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .flexible .half-width{
+        width: 59%;
+    }
+    
+    .half-width{
+        margin-left: 3%;
+    }
+    .heading-title{
+        font-size: 45px;
+    }
+
+    .flexible img{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .form-menu{
+        width: 100%;
+    }
+
+    .logo img{
+        width: 90%;
+    }
+    
+}
