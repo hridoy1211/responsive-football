@@ -27,8 +27,11 @@ main{
 -------------------*/
 .menu{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin-left: 130px;
+    margin-right: 120px;
+    margin-bottom: 20px;
 }
 .link,.login,a{
     color: white;
@@ -50,9 +53,9 @@ header{
 }
 
 .flexible{
-    display: flex;
-    
+    display: flex;  
 }
+
 .half-width{
     width: 50%;
     margin-left: 100px;
@@ -105,15 +108,15 @@ header{
 
 
 
-/*-----------------
-        Players 
- ------------------*/
+/*-------------------
+Players-Section start
+ --------------------*/
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 27px;
     grid-column-gap: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 165px;
 }
 .player{
     box-shadow: 5px 5px 15px rgba(128, 128, 128, 0.575);
@@ -125,6 +128,8 @@ header{
 .player-photo img{
     height: 256px;
     width: 300px;
+    height:100%;
+    width: 100%;
 
 }
 
@@ -139,21 +144,21 @@ header{
 /* transform & transition */
 
 .player-detail{
-    /* width:300px; */
-    /* height:104; */
-    /* width: 100%; */
+    /* width:300px;
+    height:154px;
+    width: 100%; */
     font-size: 16px;
 }
 .photo-title{
     font-size: 28px;
 }
 /*-----------------
-        Players 
+Players-Section End
  ------------------*/
 
 
 /*--------------------
-    Extra Section 1 
+ Extra Section 1 start
  --------------------*/
  .trophy img{
      width: 90%;
@@ -175,5 +180,82 @@ header{
     background-color: #9e043cd2;
 }
 /*--------------------
-    Extra Section 1 
+ Extra Section 1 end
  --------------------*/
+
+
+
+
+/*--------------------
+  Extra Section 2 start
+ --------------------*/
+.login-form{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 165px;
+}
+.form-menu{
+    display: flex;
+    flex-direction: column;    
+}
+.form-menu input,button{
+    font-size: 1.3em;
+    margin-top: 10px;
+    padding:5px 15px;
+    border-radius: 5px;
+    border:1px solid #E02C6D;
+}
+
+.form-menu button{
+    background-color: #E02C6D;
+    color:white;
+    font-size: 25px;
+    font-weight: 700;
+    border: 0px;
+}
+
+.form-menu button:hover{
+    background-color: brown;
+    transform: scale(0.95);
+}
+/*--------------------
+  Extra Section 2 end
+ --------------------*/
+
+
+
+ /* ----------------
+    footer start
+------------------ */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.logo img{
+    width: 483.87px;
+    height: 110px;
+}
+.icon a{
+    font-size: 20px;
+    width: 32px;
+    height: 32px;
+    color:#969BAB;
+}
+
+/* transform & transition */
+.icon .social:hover{
+    transform: scale(1.5) rotate(360deg);
+    transition: transform 0.5s ease-in-out;
+}
+/* transform & transition */
+
+.copyright{
+    font-weight: 400;
+    font-size: 18px;
+}
+ /* ----------------
+    footer end 
+------------------ */
